@@ -1,0 +1,22 @@
+{
+  "name": "moviedbwebhook",
+  "version": "1.0.0",
+  "description": "Movie Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webhook"
+  ],
+  "author": "marc.fick@getgsi.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1"
+  },
+  "engines" : {
+  	"node": "8.10.0"
+  }
+}
